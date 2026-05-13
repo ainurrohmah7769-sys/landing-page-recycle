@@ -63,7 +63,7 @@ a {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url('asset/img/background2.jpeg');
+    background-image: url('background2.jpeg');
     background-position: bottom;
     background-size: cover;
     display: flex;
