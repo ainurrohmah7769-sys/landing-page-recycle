@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #A8BA82;
+}
+
+/*SECTION*/
+.content {
+    padding-top: 100px
+}
+
+.analysis {
+    margin: 25px 20px 50px 20px;
+    padding: 20px;
+}
+.analysis p {
+    text-indent: 3em;
+}
+
+.card {
+    width: 90%;
+    background-color: #F3EED9;
+    margin: 0 0 20px 60px;
+    border-radius: 10px;
+}
+
+/*NAVBAR*/
+.navbar {
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 10px auto;
+background-color: #F3EED9;
+position: fixed;
+margin-bottom: 50px;
+}
+
+.navbar img {
+    width: 75px;
+    height: 75px;
+}
+
+.logo {
+color: #466243;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+flex: 1;
+text-align: center;
+margin: 20px 350px 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+.active {
+    text-decoration: underline;
+    color: #466243;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #466243;
+    border-radius: 30px;
+    color: white;
+}
+
+/*Footer*/
+.main-footer {
+    background-color: #F3EED9;
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 30px 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex-basis: 22%;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color:white; 
+}
+
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-links i {
+    font-size: 1.2rem;
+    color:black; 
+}
+
+.copy {
+    text-align: center;
+    font-size: 20p;
+}
+
+
+
